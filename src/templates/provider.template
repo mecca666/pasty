@@ -1,0 +1,35 @@
+import React, { createContext, useState, ReactNode } from 'react';
+
+export const {{ name }}Context = createContext({
+    login: () => {},
+    logout: () => {},
+});
+
+export const {{ name }}Provider: React.FC<{ children: ReactNode }> = ({ children }) => {
+    const [isAuthenticated, setIsAuthenticated] = useState(false);
+
+    const login = async (email) => {
+
+        // Fetch user data after login and update cache
+        try {
+            // Do something
+        } catch (error) {
+            console.log(error);
+            logout();
+        }
+    };
+
+    const logout = () => {
+        // do something
+    };
+
+    const register = () => {
+        // do something
+    };
+
+    return (
+        <{{ name }}Context.Provider value={{login, logout }}>
+            {children}
+        </{{ name }}Context.Provider>
+    );
+};

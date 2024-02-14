@@ -1,0 +1,26 @@
+{
+  "name": "pasty",
+  "version": "1.0.0",
+  "description": "Test package to play about with generating views and providers",
+  "main": "./dist/index.js",
+  "bin": { "pasty": "./dist/index.js" },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "src"
+  ],
+  "keywords": [],
+  "author": "Postman pat",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.17",
+    "commander": "^12.0.0"
+  }
+}

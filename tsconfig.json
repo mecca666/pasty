@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Choose target based on your needs
+    "lib": ["dom", "dom.iterable", "esnext"], // Add necessary libs
+    "outDir": "dist", // Output directory for compiled JavaScript
+    "esModuleInterop": true, // For CommonJS compatibility
+    "allowJs": true // Allow inclusion of existing JavaScript files
+  }
+}
