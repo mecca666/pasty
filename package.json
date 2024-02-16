@@ -1,10 +1,10 @@
 {
-  "name": "pasty-generator",
+  "name": "react-native-file-generator",
   "version": "1.0.1",
   "description": "Test package to play about with generating views and providers for React Native projects",
   "main": "./dist/index.js",
   "bin": {
-    "pasty": "./dist/index.js"
+    "rnfg": "./dist/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
