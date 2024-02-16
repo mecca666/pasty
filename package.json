@@ -1,9 +1,11 @@
 {
-  "name": "pasty",
-  "version": "1.0.0",
-  "description": "Test package to play about with generating views and providers",
+  "name": "pasty-generator",
+  "version": "1.0.1",
+  "description": "Test package to play about with generating views and providers for React Native projects",
   "main": "./dist/index.js",
-  "bin": { "pasty": "./dist/index.js" },
+  "bin": {
+    "pasty": "./dist/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,9 +14,13 @@
     "dist",
     "src"
   ],
+  "repository": {
+    "url": "https://github.com/mecca666/pasty",
+    "type": "git"
+  },
   "keywords": [],
-  "author": "Postman pat",
-  "license": "ISC",
+  "author": "Pat Campbell <paddytrickell88@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
